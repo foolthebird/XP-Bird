@@ -31,7 +31,7 @@ const Signup = () => {
             data.append("phone",phone)
 
             // using axios to post our data to the database
-            const response = await axios.post ("http://johnson.alwaysdata.net/api/signup",data)
+            const response = await axios.post ("https://johnson.alwaysdata.net/api/signup",data)
             // removing the loading message by setting it to empty
             setLoading("")
             // adding success message after succesful data hosting in the database

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const productsEndpoint = 'http://johnson.alwaysdata.net/api/get_product_details'
+const productsEndpoint = 'https://johnson.alwaysdata.net/api/get_product_details'
 
 const responses = {
   hello: 'Hello! Welcome to XP-Bird. What are you looking for?',

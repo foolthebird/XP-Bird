@@ -80,7 +80,7 @@ const Makepayment = () => {
       const data = new FormData()
       data.append('phone', phone.trim())
       data.append('amount', amount)
-      await axios.post('http://johnson.alwaysdata.net/api/mpesa_payment', data)
+      await axios.post('https://johnson.alwaysdata.net/api/mpesa_payment', data)
       setMessage('Please complete the payment from the M-Pesa prompt on your phone.')
     } catch (requestError) {
       setMessage('')

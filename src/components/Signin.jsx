@@ -26,7 +26,7 @@ const Signin = () => {
         data.append("password",password)
 
         // connecting and hoasting data to the database
-        const response = await axios.post("http://johnson.alwaysdata.net/api/signin", data)
+        const response = await axios.post("https://johnson.alwaysdata.net/api/signin", data)
         
         // updating the loading message to empty
         setLoading("")

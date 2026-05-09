@@ -37,7 +37,7 @@ const Addtocart = () => {
                 <div className='cart-item glass-product-card p-4 mb-4' key={item.id}>
                   <div className='d-flex align-items-center gap-4 flex-wrap'>
                     <img
-                      src={`http://johnson.alwaysdata.net/static/images/${item.product_photo}`}
+                      src={`https://johnson.alwaysdata.net/static/images/${item.product_photo}`}
                       alt={item.product_name}
                       className='cart-item-img me-4'
                     />

@@ -1,5 +1,5 @@
-export const productsEndpoint = 'http://johnson.alwaysdata.net/api/get_product_details'
-export const productImageBaseUrl = 'http://johnson.alwaysdata.net/static/images/'
+export const productsEndpoint = 'https://johnson.alwaysdata.net/api/get_product_details'
+export const productImageBaseUrl = 'https://johnson.alwaysdata.net/static/images/'
 
 const normalizeText = (value) => String(value ?? '').toLowerCase().trim()
 

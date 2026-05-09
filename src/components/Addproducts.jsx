@@ -26,7 +26,7 @@ const Addproducts = () => {
       data.append("product_category",productcategory)
       data.append("product_photo",productphoto)
 
-      const response = await axios.post("http://johnson.alwaysdata.net/api/add_product",data) 
+      const response = await axios.post("https://johnson.alwaysdata.net/api/add_product", data)
       setLoading("")
       setSucces(response.data.message)
 
