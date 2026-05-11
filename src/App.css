@@ -1929,9 +1929,9 @@
 /* ── Nav Links ── */
 /* Bootstrap defines .navbar-nav as flex-direction:column — we must override */
 .main-navbar .navbar-nav {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 0.25rem;
   flex: 1;
   min-width: 0;
@@ -2172,7 +2172,7 @@
     order: 1;
   }
 
-  .navbar-nav {
+  .main-navbar .navbar-nav {
     order: 3;
     flex-basis: 100%;
     display: none;
@@ -2183,7 +2183,7 @@
     margin-top: 0.75rem;
   }
 
-  .navbar-nav.open {
+  .main-navbar .navbar-nav.open {
     display: flex;
   }
 
